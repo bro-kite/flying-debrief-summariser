@@ -1,15 +1,15 @@
 # Flying Debrief Summarizer - 2025 Edition
 
-> Modern NLP system for automatically summarizing flight instructor debriefs using state-of-the-art transformer models.
+> Modern NLP system for automatically summarising flight instructor debriefs using state-of-the-art transformer models.
 
 ## Overview
 
-This project provides a comprehensive solution for summarizing flight training debriefs. Originally developed in 2020 using Google's Pegasus model, this 2025 edition represents a complete modernization with:
+This project provides a comprehensive solution for summarising flight training debriefs. Originally developed in 2020 using Google's Pegasus model, this 2025 edition represents a complete modernisation with:
 
 - **Multiple State-of-the-Art Models**: BART-Large-CNN, FLAN-T5-Large, and updated Pegasus
 - **Aviation-Specific Analysis**: Flight phase detection, action item extraction, safety highlights
 - **Comprehensive Evaluation**: ROUGE, BERTScore, and custom aviation metrics
-- **Production-Ready**: Clean architecture, GPU optimization, batch processing
+- **Production-Ready**: Clean architecture, GPU optimisation, batch processing
 - **Rich Visualizations**: Interactive charts and detailed comparisons
 
 ## Key Improvements from 2020
@@ -404,13 +404,7 @@ MIT License - see LICENSE file for details.
 - [ROUGE Metric](https://aclanthology.org/W04-1013/)
 - [BERTScore](https://arxiv.org/abs/1904.09675)
 
-## Contact
 
-For questions or support:
-- GitHub Issues: [Report a bug](https://github.com/yourusername/flying-debrief-summariser/issues)
-- Email: your.email@example.com
-
----
 
 **Last Updated**: December 2025
 **Status**: Production Ready ✓
