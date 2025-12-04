@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Model files (too large for git)
+*.bin
+*.safetensors
+*.onnx
+models/
+checkpoints/
+
+# Results and outputs
+results/
+outputs/
+*.csv
+*.png
+*.html
+experiment_report.json
+best_summary.txt
+summarization_results.csv
+model_comparison.png
+parameter_analysis.png
+interactive_comparison.html
+
+# Data files (if large)
+data/raw/
+data/processed/
+*.pkl
+*.pickle
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Environment variables
+.env
+.env.local
+
+# API keys (IMPORTANT!)
+config.json
+secrets.json
+credentials.json
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
