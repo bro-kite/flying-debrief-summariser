@@ -17,11 +17,9 @@ This project provides a comprehensive solution for summarising flight training d
 | Aspect | 2020 Version | 2025 Version |
 |--------|--------------|--------------|
 | **Model** | Pegasus-big_patent (wrong domain) | Multiple SOTA models (BART, T5, Pegasus-XSum) |
-| **Code Quality** | Repetitive manual testing | Clean OOP architecture with parameter sweeps |
 | **Evaluation** | ROUGE-1, ROUGE-L only | ROUGE suite + BERTScore + Aviation metrics |
 | **Features** | Basic summarization | Structured output, phase detection, action items |
 | **Performance** | CPU only, no optimization | GPU support, FP16, batch processing |
-| **Output** | Print statements | CSV export, JSON reports, interactive visualizations |
 
 ## Quick Start
 
